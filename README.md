@@ -40,3 +40,50 @@ console.log(dallasCowboys)```
         return num1 -num2'
     }
 ```
+
+
+## DOM Manipulation
+
+
+
+```Javacript
+
+
+// Dom 
+
+const container = document.querySelector(".container");
+console.log(container);
+
+const headerTwo = document.createElement("h2");
+headerTow.textContent = "my First JS Review";
+console.log(headerTwo);
+
+container.appendChild("headerTwo");
+
+headerTwo.classList.add ("subtitle","header-two");
+headerTwo.setAttribute.remove("class","header-two" );
+console.log(headerTwo);
+```
+
+## more Dom minipulation
+
+
+// iterate through my friends array 
+for (let i = 0; i < friends.length; i++) {
+    let eachFriend = friends[i];
+    console.log(eachFriend);
+///creat a element
+    const listItem = document.createElement ('li');
+    // added text
+    listItem.textContent = eachFriend;
+    console.log(listItem);
+    /append item list
+    list.appendChild(listItem);
+}
+console.log(list);
+
+headerThree.addEventListener('click', function () {
+    container.appendChild(list);
+    
+});
+```
