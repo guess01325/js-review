@@ -18,3 +18,25 @@ This is my Review
     }
 }
 console.log(dallasCowboys)```
+
+## Examples of functons
+
+``` // standard function
+    function addNumber(num1,num2) {
+        return num1 + num2;
+    }
+
+
+    //function expression
+
+    const muultiplyNumbers = function(num1, num2) {
+        return num1 * num2;
+
+    }
+
+
+    // arrouw function 
+    const subtractNumbers = (num1, num2) => {
+        return num1 -num2'
+    }
+```
